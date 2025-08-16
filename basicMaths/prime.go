@@ -19,8 +19,8 @@ func Prime(n int) bool {
 
 // Check a number is prime or not.
 // time complexity : Big O(sqrt(N))
-func PrimeFaster(n int)bool {
-	divisorsOfN := DivisorsFaster(n)
+func PrimeFast(n int)bool {
+	divisorsOfN := DivisorsFast(n)
 
 	if len(divisorsOfN) == 2 {
 		return true

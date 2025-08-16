@@ -16,7 +16,7 @@ func Divisors(n int) []int {
 
 // Take a input n and return its all divisors.
 // time complexity : Big O(sqrt(N)).
-func DivisorsFaster(n int) []int {
+func DivisorsFast(n int) []int {
 	sqrN := int(math.Sqrt(float64(n)))
 
 	divisors := []int{}
