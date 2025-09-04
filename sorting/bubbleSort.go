@@ -20,13 +20,13 @@ package sorting
 //		Check for Completion: The algorithm stops when a complete pass is made without any swaps occurring, as this indicates the list is fully sorted.
 
 func BubbleSort(nums []int) []int {
-	sorted := nums
-	for i := 0; i < len(sorted)-1; i++ {
-		for j := 0; j < len(sorted)-i-1; j++ {
-			if sorted[j] > sorted[j+1] {
-				sorted[j], sorted[j+1] = sorted[j+1], sorted[j]
+	tempArr := nums
+	for i := 0; i < len(tempArr)-1; i++ {
+		for j := 0; j < len(tempArr)-i-1; j++ {
+			if tempArr[j] > tempArr[j+1] {
+				tempArr[j], tempArr[j+1] = tempArr[j+1], tempArr[j]
 			}
 		}
 	}
-	return sorted
+	return tempArr
 }
