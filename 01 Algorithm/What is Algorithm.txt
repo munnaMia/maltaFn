@@ -1,0 +1,9 @@
+Algorithm: An algorithm is any well defined computational procedures that take some 
+           values as inputs and produce some output or a set of outputs in a finit 
+           amount of time.
+
+# The input sequence is called an [[INSTANCE]] of the sorting algorithm.
+
+# An algorithm can be specified in English, as a computer program, or as a hardware design. 
+The only requirement is that the specification must provide a precise description of the 
+computational procedure to be followed.

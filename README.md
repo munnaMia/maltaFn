@@ -1,2 +1,7 @@
 # MaltaFn
-## DSA implementation and more...
+## DSA implementation with notes and more...
+
+## Topic lists
+- Algorithms
+- Sorting
+    - Basic sorting

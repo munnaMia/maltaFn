@@ -1,0 +1,12 @@
+Input : A sequence of n numbers (x1, x2, x3, x4, x5, x6, x7, .... xN).
+
+Output : Reordering the input sequence (x1', x2', x3', x4', x5', x6', x7', .... xN')
+         such that: x1' <= x2' <= x3'... <= xN'
+
+Let's say,
+    we have an input : (5, 1, 6, 3, 2)
+
+    so a correct sorting algorithm will return an
+    output sequence : (1, 2, 3, 5, 6)
+
+# Such that the input sequence is called an [[INSTANCE]] of the sorting algorithm.
